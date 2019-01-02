@@ -9,12 +9,16 @@ import com.google.googlejavaformat.java.FormatterException;
 @Controller
 public class HomeController {
 
-			private String name;
-	@RequestMapping("/hello")
-	public String hello() 
+	private String name;
 	
+	
+	
+
+	@RequestMapping("/hello")
+	public String hello()
+
 	{
-return "welcome";
+					return "welcome";
 
 	}
 }
